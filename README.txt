@@ -97,7 +97,7 @@ The following are the remaining variables, which are floating point values repre
   fbodybodygyrojerkmagmean
   fbodybodygyrojerkmagstd
   fbodybodygyrojerkmagmeanfreq
-  angletbodyaccmean.gravity
+  angletbodyaccmeangravity
   angletbodyaccjerkmeangravitymean
   angletbodygyromeangravitymean
   angletbodygyrojerkmeangravitymean
