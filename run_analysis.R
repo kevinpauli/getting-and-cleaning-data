@@ -24,7 +24,7 @@ y_combined <- left_join(y_combined, activity_labels, by = 'activity_code') %>% s
 
 # merge test and training sets for feature vectors
 features <- read.table(paste0(datadirname, '/features.txt'), stringsAsFactors = FALSE)$V2
-features <- tolower(gsub('[.()-]','',features))
+features <- tolower(gsub('[.(),-]','',features))
 X_test <- read.table(paste0(datadirname, '/test/X_test.txt'), col.names = features)
 X_train <- read.table(paste0(datadirname, '/train/X_train.txt'), col.names = features)
 X_combined <- rbind(X_test, X_train)

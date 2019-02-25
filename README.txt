@@ -98,10 +98,10 @@ The following are the remaining variables, which are floating point values repre
   fbodybodygyrojerkmagstd
   fbodybodygyrojerkmagmeanfreq
   angletbodyaccmean.gravity
-  angletbodyaccjerkmean.gravitymean
-  angletbodygyromean.gravitymean
-  angletbodygyrojerkmean.gravitymean
-  anglex.gravitymean
-  angley.gravitymean
-  anglez.gravitymean
+  angletbodyaccjerkmeangravitymean
+  angletbodygyromeangravitymean
+  angletbodygyrojerkmeangravitymean
+  anglexgravitymean
+  angleygravitymean
+  anglezgravitymean
  
