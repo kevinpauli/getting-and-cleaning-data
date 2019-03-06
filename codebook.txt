@@ -1,0 +1,104 @@
+The final result has the following variables:
+
+  activity - What activity the person was doing when the data was collected
+    possible values:
+      WALKING
+      WALKING_UPSTAIRS
+      WALKING_DOWNSTAIRS
+      SITTING
+      STANDING
+      LAYING
+
+  subject - identifier for which subject the observation is for
+    possible values: 1 to 30
+
+  *NOTE* Each combination of activity and subject will appear at most once in the result table.
+
+The following are the remaining variables, which are floating point values representing the average of the original observations for this activity and subject.
+
+  tbodyaccmeanx
+  tbodyaccmeany
+  tbodyaccmeanz
+  tbodyaccstdx
+  tbodyaccstdy
+  tbodyaccstdz
+  tgravityaccmeanx
+  tgravityaccmeany
+  tgravityaccmeanz
+  tgravityaccstdx
+  tgravityaccstdy
+  tgravityaccstdz
+  tbodyaccjerkmeanx
+  tbodyaccjerkmeany
+  tbodyaccjerkmeanz
+  tbodyaccjerkstdx
+  tbodyaccjerkstdy
+  tbodyaccjerkstdz
+  tbodygyromeanx
+  tbodygyromeany
+  tbodygyromeanz
+  tbodygyrostdx
+  tbodygyrostdy
+  tbodygyrostdz
+  tbodygyrojerkmeanx
+  tbodygyrojerkmeany
+  tbodygyrojerkmeanz
+  tbodygyrojerkstdx
+  tbodygyrojerkstdy
+  tbodygyrojerkstdz
+  tbodyaccmagmean
+  tbodyaccmagstd
+  tgravityaccmagmean
+  tgravityaccmagstd
+  tbodyaccjerkmagmean
+  tbodyaccjerkmagstd
+  tbodygyromagmean
+  tbodygyromagstd
+  tbodygyrojerkmagmean
+  tbodygyrojerkmagstd
+  fbodyaccmeanx
+  fbodyaccmeany
+  fbodyaccmeanz
+  fbodyaccstdx
+  fbodyaccstdy
+  fbodyaccstdz
+  fbodyaccmeanfreqx
+  fbodyaccmeanfreqy
+  fbodyaccmeanfreqz
+  fbodyaccjerkmeanx
+  fbodyaccjerkmeany
+  fbodyaccjerkmeanz
+  fbodyaccjerkstdx
+  fbodyaccjerkstdy
+  fbodyaccjerkstdz
+  fbodyaccjerkmeanfreqx
+  fbodyaccjerkmeanfreqy
+  fbodyaccjerkmeanfreqz
+  fbodygyromeanx
+  fbodygyromeany
+  fbodygyromeanz
+  fbodygyrostdx
+  fbodygyrostdy
+  fbodygyrostdz
+  fbodygyromeanfreqx
+  fbodygyromeanfreqy
+  fbodygyromeanfreqz
+  fbodyaccmagmean
+  fbodyaccmagstd
+  fbodyaccmagmeanfreq
+  fbodybodyaccjerkmagmean
+  fbodybodyaccjerkmagstd
+  fbodybodyaccjerkmagmeanfreq
+  fbodybodygyromagmean
+  fbodybodygyromagstd
+  fbodybodygyromagmeanfreq
+  fbodybodygyrojerkmagmean
+  fbodybodygyrojerkmagstd
+  fbodybodygyrojerkmagmeanfreq
+  angletbodyaccmeangravity
+  angletbodyaccjerkmeangravitymean
+  angletbodygyromeangravitymean
+  angletbodygyrojerkmeangravitymean
+  anglexgravitymean
+  angleygravitymean
+  anglezgravitymean
